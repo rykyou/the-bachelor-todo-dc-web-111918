@@ -54,5 +54,5 @@ def get_average_age_for_season(data, season)
   array_of_ages.each do |n|
     total += n
   end
-  total.to_i/array_of_ages.size
+  (total/array_of_ages.size).round
 end
