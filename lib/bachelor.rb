@@ -50,4 +50,10 @@ def get_average_age_for_season(data, season)
     array_of_ages << contestant_info["age"].to_f
   end 
   
+  total = 0.0
+  array_of_ages.each do |n|
+  total += val
+end
+
+average = total/values.size
 end
